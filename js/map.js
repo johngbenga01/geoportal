@@ -142,11 +142,11 @@ var baseLayers = {
 var overlays = {
     "Water Bodies": waterBodiesWMS,
     "Tree cover": treeCoverWMS,
-    "regions": regionLayer,
+    "Rgions": regionLayer,
     "Health Facilities": healthLayer,
     "Railway lines": railwayLayer,
     "Tree Cover Selected Regions": treeCoverSR,
-    "region WMS": regionWMS
+    "Rgion WMS": regionWMS
     //"Marker": marker,
     //"Roads": roadsLayer
 };

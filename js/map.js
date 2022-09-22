@@ -117,12 +117,7 @@ var regionWMS = L.tileLayer.wms("http://localhost:8080/geoserver/geospatial/wms"
     format: 'image/png',
     transparent: true,
     attribution: "",
-    // onEachFeature:function (feature, layer) {
-    //     label= `Name: ${feature.properties.region}<br>`
-    //     label+= `Region code: ${feature.properties.reg_code}<br>` 
 
-    //     layer.bindPopup(label)
-    // }
 }).addTo(map)
 
 var treeCoverSR = L.tileLayer.wms("http://localhost:8080/geoserver/geospatial/wms", {
